@@ -24,6 +24,13 @@ function value(num) {
     return result;
 }
 var first = value(5);
-var second = valueT(10);
+var second = value(10);
 var total = first + second;
 console.log(total);
+
+function add(num1, num2) {
+    var result = num1 + num2;
+    return result;
+}
+var sum = add(15, 17);
+console.log(sum);
